@@ -1,0 +1,1274 @@
+* {
+    border: none;
+    padding: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(191, 189, 189);
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: fixed;
+    background-color: white;
+}
+.hero {
+    width: 60px;
+    height: 50px;
+    background-size:cover ;
+    background-image: url(./asset/ubi\ keju.jpg);
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.menu ul li {
+    margin-left: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: grey;
+} 
+
+.menu ul li a:hover {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid grey;
+}
+
+
+.input {
+    margin-left: 100px;
+}
+
+.input a {
+    text-decoration: none;
+    color: red; 
+}
+
+.input a:hover {
+    background-color: lightblue;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.input button {
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.input button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.jumbotron {
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.content-left {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.content-left a {
+    text-decoration: none;
+    color: red;
+}
+
+.content-left p {
+    font-size: 15px;
+    color: grey;
+    padding-right: 50px;
+}
+
+.find-restaurant-container {
+    width: 400px;
+    height: 50px ;
+    padding: 10px 10px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.find-restaurant-container input {
+    height: 100%;
+}
+
+
+.find-restaurant-container p {
+    text-transform: capitalize;
+}
+
+
+.find-restaurant-container button {
+    width: 150px;
+    height: 35px;
+    text-transform: capitalize;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.find-restaurant-container a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.find-restaurant-container button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.container-right {
+    margin-bottom: 100px;
+}
+
+.gambar {
+    width: 589px;
+    height: 509px;
+    margin-top: 80px;
+    background-size: cover;
+    background-image: url(./asset/Group\ 48095711.png);
+}
+
+.jumbotron-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.gambar-lift {
+    width: 541px;
+    height: 510px;
+    background-image: url(./asset/Group\ 48095716.jpg);
+}
+
+.content-right-2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content-right-2 h1 {
+    margin-top: -50px;
+}
+
+.content-right-2 p {
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.content-right-2 button {
+    width: 150px;
+    height: 45px;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.content-right-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.learn:hover {
+    background-color: lightblue;
+}
+
+.jumbotron-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: -80px;
+    margin-bottom: 200px;
+}
+
+.daftar-menu {
+    width: 803px;
+    height: 152px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.daftar-menu h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.daftar-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+
+}
+
+
+.daftar-menu button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.daftar-menu a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.daftar-menu a:hover {
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.gambar-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card {
+    width: 276px;
+    height: 473px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.card-csp {
+    margin-top: 70px;
+    padding-top: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.card-csp button {
+    box-shadow: 1px 1px 1px 1px grey;
+    color: black;
+    text-transform: capitalize;
+}
+
+.card-csp button:hover  {
+    background-color: red;
+    color: white;
+}
+
+
+.card-csp .star {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.star i {
+    font-size: 15px;
+}
+
+.name-food {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.diskon {
+    display: flex;
+}
+
+.diskon .p-harga-csp {
+    color: orange;
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.diskon .harga-csp {
+    color: grey;
+    font-size: 15px;
+    padding-top: 2px;
+    text-decoration: line-through;
+    padding-bottom: 20px;
+}
+
+.rip-time {
+    color: grey;
+    font-size: 16px;
+    text-transform: none;
+    padding-bottom: 20px;
+}
+
+.button-csp .button-a {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+
+.button-csp .button-a a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.button-heart {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button-csp button i {
+    color: red;
+    font-size: 25px;
+}
+
+.button-csp button i:hover {
+    color: white;
+}
+
+
+.button-a-c2 {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+    color: white;
+}
+
+.button-a-c2 a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.button-a-c2:hover {
+    background-color: red;
+    color: white;
+}
+
+.button-heart-c2:hover {
+    background-color: lightblue;
+}
+
+.button-heart-c2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: white;
+    color: white;
+}
+
+
+.jumbotron-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+.gambar-bulet {
+    width: 576px;
+    height: 530px;
+    background-size: cover;
+    background-image:url(./asset/Group\ 48095752.jpg) ;
+}
+
+
+.p-we {
+    font-size: 13px;
+}
+
+.button-learn button {
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.button-learn button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+.button-learn a {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.jumbotron-5 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A32921;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+img{
+    position: absolute;
+    right: -100px;
+    top: 70px;
+    z-index: 0;
+}
+
+
+.getting h1 {
+    text-align: center;
+    color: white;
+}
+
+.maintain {
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+}
+
+.submit-your {
+    width: 400px;
+    height: 60px ;
+    font-size: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submit-your button {
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+
+.submit-your button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.jumbotron-6 {
+    width: 1200px;
+    height: auto;
+    background-color: #252C2E;
+    z-index: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+    z-index: 1;
+    
+}
+
+.h2 h2 {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: -15px;
+}
+
+.logo-end {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.gambar-j6 {
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(./asset/ubi\ keju.jpg);
+}
+
+.nav-j6 p {
+    font-size: 10px;
+}
+
+.nav-j6 ul {
+    display: flex;
+    margin-left: -35px;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.nav-j6 ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h4 {
+    margin-top: -5px;
+    color: grey;
+    font-size: 12px;
+}
+
+.service {
+    padding-left: 70px;
+}
+
+
+.service h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.about {
+    padding-left: 70px;
+}
+
+.about h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.support {
+    padding-left: 70px;
+}
+
+.support h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.get-in {
+    padding-left: 70px;
+}
+.get-in h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+* {
+    border: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(191, 189, 189);
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: fixed;
+    background-color: white;
+}
+.hero {
+    width: 60px;
+    height: 50px;
+    background-size:cover ;
+    background-image: url(./asset/ubi\ keju.jpg);
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.menu ul li {
+    margin-left: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: grey;
+} 
+
+.menu ul li a:hover {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid grey;
+}
+
+
+.input {
+    margin-left: 100px;
+}
+
+.input a {
+    text-decoration: none;
+    color: red; 
+}
+
+.input a:hover {
+    background-color: lightblue;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.input button {
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.input button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.jumbotron {
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.content-left {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.content-left a {
+    text-decoration: none;
+    color: red;
+}
+
+.content-left p {
+    font-size: 15px;
+    color: grey;
+    padding-right: 50px;
+}
+
+.find-restaurant-container {
+    width: 400px;
+    height: 50px ;
+    padding: 10px 10px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.find-restaurant-container input {
+    height: 100%;
+}
+
+
+.find-restaurant-container p {
+    text-transform: capitalize;
+}
+
+
+.find-restaurant-container button {
+    width: 150px;
+    height: 35px;
+    text-transform: capitalize;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.find-restaurant-container a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.find-restaurant-container button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.container-right {
+    margin-bottom: 100px;
+}
+
+.gambar {
+    width: 589px;
+    height: 509px;
+    margin-top: 80px;
+    background-size: cover;
+    background-image: url(./asset/Group\ 48095711.png);
+}
+
+.jumbotron-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.gambar-lift {
+    width: 541px;
+    height: 510px;
+    background-image: url(./asset/Group\ 48095716.jpg);
+}
+
+.content-right-2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content-right-2 h1 {
+    margin-top: -50px;
+}
+
+.content-right-2 p {
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.content-right-2 button {
+    width: 150px;
+    height: 45px;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.content-right-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.learn:hover {
+    background-color: lightblue;
+}
+
+.jumbotron-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    margin-left: -80px;
+    margin-bottom: 200px;
+}
+
+.daftar-menu {
+    width: 803px;
+    height: 152px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.daftar-menu h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.daftar-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+
+}
+
+
+.daftar-menu button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.daftar-menu a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.daftar-menu a:hover {
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.gambar-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card {
+    width: 276px;
+    height: 473px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.card-csp {
+    margin-top: 70px;
+    padding-top: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.card-csp button {
+    box-shadow: 1px 1px 1px 1px grey;
+    color: black;
+    text-transform: capitalize;
+}
+
+.card-csp button:hover  {
+    background-color: red;
+    color: white;
+}
+
+
+.star {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.star i {
+    font-size: 15px;
+}
+
+.name-food {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.diskon {
+    display: flex;
+}
+
+.diskon .p-harga-csp {
+    color: orange;
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.diskon .harga-csp {
+    color: grey;
+    font-size: 15px;
+    padding-top: 2px;
+    text-decoration: line-through;
+    padding-bottom: 20px;
+}
+
+.rip-time {
+    color: grey;
+    font-size: 16px;
+    text-transform: none;
+    padding-bottom: 20px;
+}
+
+.button-csp .button-a {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+
+.button-csp .button-a a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.button-heart {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button-csp button i {
+    color: red;
+    font-size: 25px;
+}
+
+.button-csp button i:hover {
+    color: white;
+}
+
+
+.button-a-c2 {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+    color: white;
+}
+
+.button-a-c2 a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.button-a-c2:hover {
+    background-color: red;
+    color: white;
+}
+
+.button-heart-c2:hover {
+    background-color: lightblue;
+}
+
+.button-heart-c2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: white;
+    color: white;
+}
+
+
+.jumbotron-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+.gambar-bulet {
+    width: 576px;
+    height: 530px;
+    background-size: cover;
+    background-image: url(./asset/bundar.jpg);
+}
+
+
+.p-we {
+    font-size: 13px;
+}
+
+.button-learn button {
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.button-learn button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+.button-learn a {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.jumbotron-5 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A32921;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+img{
+    position: absolute;
+    right: -100px;
+    top: 70px;
+    z-index: 0;
+}
+
+
+.getting h1 {
+    text-align: center;
+    color: white;
+}
+
+.maintain {
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+}
+
+.submit-your {
+    width: 400px;
+    height: 60px ;
+    font-size: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submit-your button {
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+
+.submit-your button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.jumbotron-6 {
+    width: 1200px;
+    height: auto;
+    background-color: #252C2E;
+    z-index: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+    z-index: 1;
+    
+}
+
+.h2 h2 {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: -15px;
+}
+
+.logo-end {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.gambar-j6 {
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(./asset/ubi\ keju.jpg);
+}
+
+.nav-j6 p {
+    font-size: 10px;
+}
+
+.nav-j6 ul {
+    display: flex;
+    margin-left: -35px;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.nav-j6 ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h4 {
+    margin-top: -5px;
+    color: grey;
+    font-size: 12px;
+}
+
+.service {
+    padding-left: 70px;
+}
+
+
+.service h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.about {
+    padding-left: 70px;
+}
+
+.about h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.support {
+    padding-left: 70px;
+}
+
+.support h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
